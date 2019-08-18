@@ -30,7 +30,6 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void run() {
                 try {
-
                     String Url = "http://10.0.2.2:8080/QuizApp/main/mobileApp/Login&akash@gmail.com&password";
                     Log.e("Url", Url);
                     new ApiConnection().connect(new OnApiResponseListener() {
